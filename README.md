@@ -1,3 +1,3 @@
 # iOSOctubre2016
-Alejandro Sanchez Ortega 
+#Alejandro Sanchez Ortega 
 Repositorio para compartir tareas y contenido del curso. 
