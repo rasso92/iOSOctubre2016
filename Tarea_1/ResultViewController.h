@@ -1,0 +1,14 @@
+//
+//  ResultViewController.h
+//  Tarea_1
+//
+//  Created by user122432 on 11/5/16.
+//  Copyright © 2016 asanchez. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ResultViewController : UIViewController
+@property (	nonatomic	,assign	) int  result;
+
+@end
