@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TIv-yg-wkn">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Div View Controller-->
+        <scene sceneID="X5R-5K-WjM">
+            <objects>
+                <viewController storyboardIdentifier="FibonacciViewController" id="TIv-yg-wkn" customClass="DivViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3A-xj-alV"/>
+                        <viewControllerLayoutGuide type="bottom" id="bdh-G0-D6Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f9v-kR-F8V">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="opz-B8-DKb">
+                                <rect key="frame" x="0.0" y="84" width="320" height="484"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <stackView key="tableFooterView" opaque="NO" contentMode="scaleToFill" axis="vertical" id="gYl-ox-ece">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </stackView>
+                                <connections>
+                                    <outlet property="dataSource" destination="TIv-yg-wkn" id="O1m-Kk-nwM"/>
+                                    <outlet property="delegate" destination="TIv-yg-wkn" id="VGa-PM-8N2"/>
+                                </connections>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ati-Xi-Noe">
+                                <rect key="frame" x="15" y="35" width="203" height="34"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIY-MR-2ay">
+                                <rect key="frame" x="233" y="35" width="56" height="34"/>
+                                <state key="normal" title="Calcular"/>
+                                <connections>
+                                    <action selector="calcEventButton:" destination="TIv-yg-wkn" eventType="touchUpInside" id="pwk-Sq-Cph"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="opz-B8-DKb" firstAttribute="top" secondItem="CIY-MR-2ay" secondAttribute="bottom" constant="15" id="0wR-Va-bH2"/>
+                            <constraint firstItem="CIY-MR-2ay" firstAttribute="leading" secondItem="Ati-Xi-Noe" secondAttribute="trailing" constant="15" id="21A-GM-p6T"/>
+                            <constraint firstItem="bdh-G0-D6Q" firstAttribute="top" secondItem="opz-B8-DKb" secondAttribute="bottom" id="W0e-pV-fX7"/>
+                            <constraint firstItem="Ati-Xi-Noe" firstAttribute="top" secondItem="y3A-xj-alV" secondAttribute="bottom" constant="15" id="Y85-sa-sHu"/>
+                            <constraint firstItem="opz-B8-DKb" firstAttribute="top" secondItem="y3A-xj-alV" secondAttribute="bottom" constant="64" id="bId-WW-JHN"/>
+                            <constraint firstItem="CIY-MR-2ay" firstAttribute="top" secondItem="y3A-xj-alV" secondAttribute="bottom" constant="15" id="czg-Mp-F8y"/>
+                            <constraint firstItem="opz-B8-DKb" firstAttribute="top" secondItem="Ati-Xi-Noe" secondAttribute="bottom" constant="15" id="h6A-7E-Ck9"/>
+                            <constraint firstItem="opz-B8-DKb" firstAttribute="leading" secondItem="f9v-kR-F8V" secondAttribute="leading" id="hW0-cO-ZjU"/>
+                            <constraint firstAttribute="trailing" secondItem="opz-B8-DKb" secondAttribute="trailing" id="qOK-r9-0TN"/>
+                            <constraint firstItem="Ati-Xi-Noe" firstAttribute="leading" secondItem="f9v-kR-F8V" secondAttribute="leading" constant="15" id="rYN-rf-D5q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CIY-MR-2ay" secondAttribute="trailing" constant="15" id="w6c-T4-j7G"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="opz-B8-DKb" id="4BA-ov-TgO"/>
+                        <outlet property="txtNumber" destination="Ati-Xi-Noe" id="bEv-N3-yO1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ce-wb-i0f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="178.52112676056339"/>
+        </scene>
+    </scenes>
+</document>
