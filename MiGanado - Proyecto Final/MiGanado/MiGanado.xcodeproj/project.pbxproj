@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35FB3E922435B39B8DC40005 /* libPods-MiGanado.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DDD220DFFB01962B1CF212 /* libPods-MiGanado.a */; };
+		49028D9B1E0B56DD00D247F8 /* CustomAccionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49028D991E0B56DD00D247F8 /* CustomAccionTableViewCell.m */; };
+		49028D9C1E0B56DD00D247F8 /* CustomAccionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49028D9A1E0B56DD00D247F8 /* CustomAccionTableViewCell.xib */; };
+		49028D9F1E0B95F500D247F8 /* AccionesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49028D9E1E0B95F500D247F8 /* AccionesViewController.m */; };
+		49028DA21E0B9D5100D247F8 /* AddAccionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49028DA11E0B9D5100D247F8 /* AddAccionViewController.m */; };
+		49028DA61E0BA60500D247F8 /* AnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49028DA51E0BA60500D247F8 /* AnimalViewController.m */; };
+		49028DAA1E0BA64700D247F8 /* AnimalCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49028DA81E0BA64700D247F8 /* AnimalCustomTableViewCell.m */; };
+		49028DAB1E0BA64700D247F8 /* AnimalCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49028DA91E0BA64700D247F8 /* AnimalCustomTableViewCell.xib */; };
+		49028DAE1E0BB40100D247F8 /* AddAnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49028DAD1E0BB40100D247F8 /* AddAnimalViewController.m */; };
+		4902F7771E0CA24B0082D986 /* GanadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4902F7761E0CA24B0082D986 /* GanadoViewController.m */; };
+		4902F77B1E0CA28E0082D986 /* GanadoCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4902F7791E0CA28E0082D986 /* GanadoCustomTableViewCell.m */; };
+		4902F77C1E0CA28E0082D986 /* GanadoCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4902F77A1E0CA28E0082D986 /* GanadoCustomTableViewCell.xib */; };
+		4902F77F1E0CE4130082D986 /* AddGanadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4902F77E1E0CE4130082D986 /* AddGanadoViewController.m */; };
+		4902F7821E0CFFD50082D986 /* GanadoActivoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4902F7811E0CFFD50082D986 /* GanadoActivoViewController.m */; };
+		4902F7851E0D02AF0082D986 /* NotificacionesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4902F7841E0D02AF0082D986 /* NotificacionesViewController.m */; };
+		49CCCC861E0A0337004B45C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CCCC851E0A0337004B45C1 /* main.m */; };
+		49CCCC891E0A0337004B45C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CCCC881E0A0337004B45C1 /* AppDelegate.m */; };
+		49CCCC911E0A0337004B45C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49CCCC901E0A0337004B45C1 /* Assets.xcassets */; };
+		49CCCC941E0A0337004B45C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49CCCC921E0A0337004B45C1 /* LaunchScreen.storyboard */; };
+		49CCCCA91E0A42E5004B45C1 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CCCCA81E0A42E5004B45C1 /* Animal.m */; };
+		49CCCCAC1E0A43E5004B45C1 /* Ganado.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CCCCAB1E0A43E5004B45C1 /* Ganado.m */; };
+		49CCCCAF1E0A43F3004B45C1 /* Eventos.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CCCCAE1E0A43F3004B45C1 /* Eventos.m */; };
+		49CCCCB21E0A4408004B45C1 /* Accion.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CCCCB11E0A4408004B45C1 /* Accion.m */; };
+		49CCCCB51E0A4C64004B45C1 /* RealmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CCCCB41E0A4C64004B45C1 /* RealmManager.m */; };
+		49CCCCBB1E0A5969004B45C1 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49CCCCBA1E0A5969004B45C1 /* Storyboard.storyboard */; };
+		49CCCCBE1E0A5FAC004B45C1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CCCCBD1E0A5FAC004B45C1 /* HomeViewController.m */; };
+		49CCCCC11E0A6254004B45C1 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CCCCC01E0A6254004B45C1 /* AddViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		090EC0803B13E99F13349347 /* Pods-MiGanado.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiGanado.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiGanado/Pods-MiGanado.release.xcconfig"; sourceTree = "<group>"; };
+		32DDD220DFFB01962B1CF212 /* libPods-MiGanado.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiGanado.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49028D981E0B56DD00D247F8 /* CustomAccionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAccionTableViewCell.h; sourceTree = "<group>"; };
+		49028D991E0B56DD00D247F8 /* CustomAccionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAccionTableViewCell.m; sourceTree = "<group>"; };
+		49028D9A1E0B56DD00D247F8 /* CustomAccionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAccionTableViewCell.xib; sourceTree = "<group>"; };
+		49028D9D1E0B95F500D247F8 /* AccionesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccionesViewController.h; sourceTree = "<group>"; };
+		49028D9E1E0B95F500D247F8 /* AccionesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccionesViewController.m; sourceTree = "<group>"; };
+		49028DA01E0B9D5100D247F8 /* AddAccionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAccionViewController.h; sourceTree = "<group>"; };
+		49028DA11E0B9D5100D247F8 /* AddAccionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAccionViewController.m; sourceTree = "<group>"; };
+		49028DA41E0BA60500D247F8 /* AnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalViewController.h; sourceTree = "<group>"; };
+		49028DA51E0BA60500D247F8 /* AnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalViewController.m; sourceTree = "<group>"; };
+		49028DA71E0BA64700D247F8 /* AnimalCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalCustomTableViewCell.h; sourceTree = "<group>"; };
+		49028DA81E0BA64700D247F8 /* AnimalCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalCustomTableViewCell.m; sourceTree = "<group>"; };
+		49028DA91E0BA64700D247F8 /* AnimalCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimalCustomTableViewCell.xib; sourceTree = "<group>"; };
+		49028DAC1E0BB40100D247F8 /* AddAnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAnimalViewController.h; sourceTree = "<group>"; };
+		49028DAD1E0BB40100D247F8 /* AddAnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAnimalViewController.m; sourceTree = "<group>"; };
+		4902F7751E0CA24B0082D986 /* GanadoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GanadoViewController.h; sourceTree = "<group>"; };
+		4902F7761E0CA24B0082D986 /* GanadoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GanadoViewController.m; sourceTree = "<group>"; };
+		4902F7781E0CA28E0082D986 /* GanadoCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GanadoCustomTableViewCell.h; sourceTree = "<group>"; };
+		4902F7791E0CA28E0082D986 /* GanadoCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GanadoCustomTableViewCell.m; sourceTree = "<group>"; };
+		4902F77A1E0CA28E0082D986 /* GanadoCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GanadoCustomTableViewCell.xib; sourceTree = "<group>"; };
+		4902F77D1E0CE4130082D986 /* AddGanadoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGanadoViewController.h; sourceTree = "<group>"; };
+		4902F77E1E0CE4130082D986 /* AddGanadoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGanadoViewController.m; sourceTree = "<group>"; };
+		4902F7801E0CFFD50082D986 /* GanadoActivoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GanadoActivoViewController.h; sourceTree = "<group>"; };
+		4902F7811E0CFFD50082D986 /* GanadoActivoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GanadoActivoViewController.m; sourceTree = "<group>"; };
+		4902F7831E0D02AF0082D986 /* NotificacionesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificacionesViewController.h; sourceTree = "<group>"; };
+		4902F7841E0D02AF0082D986 /* NotificacionesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificacionesViewController.m; sourceTree = "<group>"; };
+		49CCCC811E0A0337004B45C1 /* MiGanado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiGanado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CCCC851E0A0337004B45C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49CCCC871E0A0337004B45C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49CCCC881E0A0337004B45C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49CCCC901E0A0337004B45C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49CCCC931E0A0337004B45C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49CCCC951E0A0337004B45C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CCCCA71E0A42E5004B45C1 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		49CCCCA81E0A42E5004B45C1 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		49CCCCAA1E0A43E5004B45C1 /* Ganado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ganado.h; sourceTree = "<group>"; };
+		49CCCCAB1E0A43E5004B45C1 /* Ganado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ganado.m; sourceTree = "<group>"; };
+		49CCCCAD1E0A43F3004B45C1 /* Eventos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eventos.h; sourceTree = "<group>"; };
+		49CCCCAE1E0A43F3004B45C1 /* Eventos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eventos.m; sourceTree = "<group>"; };
+		49CCCCB01E0A4408004B45C1 /* Accion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accion.h; sourceTree = "<group>"; };
+		49CCCCB11E0A4408004B45C1 /* Accion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accion.m; sourceTree = "<group>"; };
+		49CCCCB31E0A4C64004B45C1 /* RealmManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmManager.h; sourceTree = "<group>"; };
+		49CCCCB41E0A4C64004B45C1 /* RealmManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealmManager.m; sourceTree = "<group>"; };
+		49CCCCBA1E0A5969004B45C1 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		49CCCCBC1E0A5FAC004B45C1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		49CCCCBD1E0A5FAC004B45C1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		49CCCCBF1E0A6254004B45C1 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		49CCCCC01E0A6254004B45C1 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		E5106050ECB9612D469B3265 /* Pods-MiGanado.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiGanado.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiGanado/Pods-MiGanado.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49CCCC7E1E0A0337004B45C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FB3E922435B39B8DC40005 /* libPods-MiGanado.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1E73D293D70CB2C6C720AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5106050ECB9612D469B3265 /* Pods-MiGanado.debug.xcconfig */,
+				090EC0803B13E99F13349347 /* Pods-MiGanado.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49028D941E0B54DF00D247F8 /* AccionScene */ = {
+			isa = PBXGroup;
+			children = (
+				49028D981E0B56DD00D247F8 /* CustomAccionTableViewCell.h */,
+				49028D991E0B56DD00D247F8 /* CustomAccionTableViewCell.m */,
+				49028D9A1E0B56DD00D247F8 /* CustomAccionTableViewCell.xib */,
+				49028D9D1E0B95F500D247F8 /* AccionesViewController.h */,
+				49028D9E1E0B95F500D247F8 /* AccionesViewController.m */,
+			);
+			name = AccionScene;
+			sourceTree = "<group>";
+		};
+		49CCCC781E0A0337004B45C1 = {
+			isa = PBXGroup;
+			children = (
+				49CCCC831E0A0337004B45C1 /* MiGanado */,
+				49CCCC821E0A0337004B45C1 /* Products */,
+				0E1E73D293D70CB2C6C720AE /* Pods */,
+				F8BA8748BB8C0E494517D4C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49CCCC821E0A0337004B45C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49CCCC811E0A0337004B45C1 /* MiGanado.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49CCCC831E0A0337004B45C1 /* MiGanado */ = {
+			isa = PBXGroup;
+			children = (
+				49028D941E0B54DF00D247F8 /* AccionScene */,
+				49CCCCB61E0A5874004B45C1 /* HomeScene */,
+				49CCCCA61E0A4232004B45C1 /* NotificationScene */,
+				49CCCCA51E0A4216004B45C1 /* AddAccionScene */,
+				49CCCCA41E0A41F9004B45C1 /* AddGanadoScene */,
+				49CCCCA31E0A41E7004B45C1 /* GanadoScene */,
+				49CCCCA21E0A41DD004B45C1 /* AddAnimalScene */,
+				49CCCCA11E0A41D2004B45C1 /* AnimalScene */,
+				49CCCCA01E0A41CD004B45C1 /* Models */,
+				49CCCC9F1E0A41C5004B45C1 /* Manager */,
+				49CCCC871E0A0337004B45C1 /* AppDelegate.h */,
+				49CCCC881E0A0337004B45C1 /* AppDelegate.m */,
+				49CCCCBA1E0A5969004B45C1 /* Storyboard.storyboard */,
+				49CCCC901E0A0337004B45C1 /* Assets.xcassets */,
+				49CCCC921E0A0337004B45C1 /* LaunchScreen.storyboard */,
+				49CCCC951E0A0337004B45C1 /* Info.plist */,
+				49CCCC841E0A0337004B45C1 /* Supporting Files */,
+			);
+			path = MiGanado;
+			sourceTree = "<group>";
+		};
+		49CCCC841E0A0337004B45C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49CCCC851E0A0337004B45C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49CCCC9F1E0A41C5004B45C1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				49CCCCB31E0A4C64004B45C1 /* RealmManager.h */,
+				49CCCCB41E0A4C64004B45C1 /* RealmManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		49CCCCA01E0A41CD004B45C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49CCCCA71E0A42E5004B45C1 /* Animal.h */,
+				49CCCCA81E0A42E5004B45C1 /* Animal.m */,
+				49CCCCAA1E0A43E5004B45C1 /* Ganado.h */,
+				49CCCCAB1E0A43E5004B45C1 /* Ganado.m */,
+				49CCCCAD1E0A43F3004B45C1 /* Eventos.h */,
+				49CCCCAE1E0A43F3004B45C1 /* Eventos.m */,
+				49CCCCB01E0A4408004B45C1 /* Accion.h */,
+				49CCCCB11E0A4408004B45C1 /* Accion.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		49CCCCA11E0A41D2004B45C1 /* AnimalScene */ = {
+			isa = PBXGroup;
+			children = (
+				49028DA41E0BA60500D247F8 /* AnimalViewController.h */,
+				49028DA51E0BA60500D247F8 /* AnimalViewController.m */,
+				49028DA71E0BA64700D247F8 /* AnimalCustomTableViewCell.h */,
+				49028DA81E0BA64700D247F8 /* AnimalCustomTableViewCell.m */,
+				49028DA91E0BA64700D247F8 /* AnimalCustomTableViewCell.xib */,
+			);
+			name = AnimalScene;
+			sourceTree = "<group>";
+		};
+		49CCCCA21E0A41DD004B45C1 /* AddAnimalScene */ = {
+			isa = PBXGroup;
+			children = (
+				49028DAC1E0BB40100D247F8 /* AddAnimalViewController.h */,
+				49028DAD1E0BB40100D247F8 /* AddAnimalViewController.m */,
+			);
+			name = AddAnimalScene;
+			sourceTree = "<group>";
+		};
+		49CCCCA31E0A41E7004B45C1 /* GanadoScene */ = {
+			isa = PBXGroup;
+			children = (
+				4902F7751E0CA24B0082D986 /* GanadoViewController.h */,
+				4902F7761E0CA24B0082D986 /* GanadoViewController.m */,
+				4902F7781E0CA28E0082D986 /* GanadoCustomTableViewCell.h */,
+				4902F7791E0CA28E0082D986 /* GanadoCustomTableViewCell.m */,
+				4902F77A1E0CA28E0082D986 /* GanadoCustomTableViewCell.xib */,
+			);
+			name = GanadoScene;
+			sourceTree = "<group>";
+		};
+		49CCCCA41E0A41F9004B45C1 /* AddGanadoScene */ = {
+			isa = PBXGroup;
+			children = (
+				4902F77D1E0CE4130082D986 /* AddGanadoViewController.h */,
+				4902F77E1E0CE4130082D986 /* AddGanadoViewController.m */,
+			);
+			name = AddGanadoScene;
+			sourceTree = "<group>";
+		};
+		49CCCCA51E0A4216004B45C1 /* AddAccionScene */ = {
+			isa = PBXGroup;
+			children = (
+				49028DA01E0B9D5100D247F8 /* AddAccionViewController.h */,
+				49028DA11E0B9D5100D247F8 /* AddAccionViewController.m */,
+			);
+			name = AddAccionScene;
+			sourceTree = "<group>";
+		};
+		49CCCCA61E0A4232004B45C1 /* NotificationScene */ = {
+			isa = PBXGroup;
+			children = (
+				4902F7831E0D02AF0082D986 /* NotificacionesViewController.h */,
+				4902F7841E0D02AF0082D986 /* NotificacionesViewController.m */,
+			);
+			name = NotificationScene;
+			sourceTree = "<group>";
+		};
+		49CCCCB61E0A5874004B45C1 /* HomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				49CCCCBC1E0A5FAC004B45C1 /* HomeViewController.h */,
+				49CCCCBD1E0A5FAC004B45C1 /* HomeViewController.m */,
+				49CCCCBF1E0A6254004B45C1 /* AddViewController.h */,
+				49CCCCC01E0A6254004B45C1 /* AddViewController.m */,
+				4902F7801E0CFFD50082D986 /* GanadoActivoViewController.h */,
+				4902F7811E0CFFD50082D986 /* GanadoActivoViewController.m */,
+			);
+			name = HomeScene;
+			sourceTree = "<group>";
+		};
+		F8BA8748BB8C0E494517D4C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32DDD220DFFB01962B1CF212 /* libPods-MiGanado.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49CCCC801E0A0337004B45C1 /* MiGanado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CCCC981E0A0337004B45C1 /* Build configuration list for PBXNativeTarget "MiGanado" */;
+			buildPhases = (
+				F4C1693B3A78DDDD093F3733 /* [CP] Check Pods Manifest.lock */,
+				49CCCC7D1E0A0337004B45C1 /* Sources */,
+				49CCCC7E1E0A0337004B45C1 /* Frameworks */,
+				49CCCC7F1E0A0337004B45C1 /* Resources */,
+				2AE26344E39CF386F6BE1924 /* [CP] Embed Pods Frameworks */,
+				AC9F921D4A965440488CDBE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiGanado;
+			productName = MiGanado;
+			productReference = 49CCCC811E0A0337004B45C1 /* MiGanado.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49CCCC791E0A0337004B45C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alejandro Sanchez";
+				TargetAttributes = {
+					49CCCC801E0A0337004B45C1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49CCCC7C1E0A0337004B45C1 /* Build configuration list for PBXProject "MiGanado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49CCCC781E0A0337004B45C1;
+			productRefGroup = 49CCCC821E0A0337004B45C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49CCCC801E0A0337004B45C1 /* MiGanado */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49CCCC7F1E0A0337004B45C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4902F77C1E0CA28E0082D986 /* GanadoCustomTableViewCell.xib in Resources */,
+				49CCCC941E0A0337004B45C1 /* LaunchScreen.storyboard in Resources */,
+				49028D9C1E0B56DD00D247F8 /* CustomAccionTableViewCell.xib in Resources */,
+				49CCCC911E0A0337004B45C1 /* Assets.xcassets in Resources */,
+				49CCCCBB1E0A5969004B45C1 /* Storyboard.storyboard in Resources */,
+				49028DAB1E0BA64700D247F8 /* AnimalCustomTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AE26344E39CF386F6BE1924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiGanado/Pods-MiGanado-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9F921D4A965440488CDBE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiGanado/Pods-MiGanado-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C1693B3A78DDDD093F3733 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49CCCC7D1E0A0337004B45C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49028D9B1E0B56DD00D247F8 /* CustomAccionTableViewCell.m in Sources */,
+				49CCCCAF1E0A43F3004B45C1 /* Eventos.m in Sources */,
+				49CCCCA91E0A42E5004B45C1 /* Animal.m in Sources */,
+				49028DAE1E0BB40100D247F8 /* AddAnimalViewController.m in Sources */,
+				49CCCC891E0A0337004B45C1 /* AppDelegate.m in Sources */,
+				49CCCC861E0A0337004B45C1 /* main.m in Sources */,
+				49CCCCB51E0A4C64004B45C1 /* RealmManager.m in Sources */,
+				49CCCCB21E0A4408004B45C1 /* Accion.m in Sources */,
+				49028DA61E0BA60500D247F8 /* AnimalViewController.m in Sources */,
+				49CCCCAC1E0A43E5004B45C1 /* Ganado.m in Sources */,
+				4902F7771E0CA24B0082D986 /* GanadoViewController.m in Sources */,
+				4902F7821E0CFFD50082D986 /* GanadoActivoViewController.m in Sources */,
+				49CCCCBE1E0A5FAC004B45C1 /* HomeViewController.m in Sources */,
+				49028DAA1E0BA64700D247F8 /* AnimalCustomTableViewCell.m in Sources */,
+				49028DA21E0B9D5100D247F8 /* AddAccionViewController.m in Sources */,
+				4902F77F1E0CE4130082D986 /* AddGanadoViewController.m in Sources */,
+				49CCCCC11E0A6254004B45C1 /* AddViewController.m in Sources */,
+				49028D9F1E0B95F500D247F8 /* AccionesViewController.m in Sources */,
+				4902F7851E0D02AF0082D986 /* NotificacionesViewController.m in Sources */,
+				4902F77B1E0CA28E0082D986 /* GanadoCustomTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49CCCC921E0A0337004B45C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49CCCC931E0A0337004B45C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49CCCC961E0A0337004B45C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49CCCC971E0A0337004B45C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49CCCC991E0A0337004B45C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5106050ECB9612D469B3265 /* Pods-MiGanado.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiGanado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artico.MiGanado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49CCCC9A1E0A0337004B45C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090EC0803B13E99F13349347 /* Pods-MiGanado.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiGanado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artico.MiGanado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49CCCC7C1E0A0337004B45C1 /* Build configuration list for PBXProject "MiGanado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CCCC961E0A0337004B45C1 /* Debug */,
+				49CCCC971E0A0337004B45C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CCCC981E0A0337004B45C1 /* Build configuration list for PBXNativeTarget "MiGanado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CCCC991E0A0337004B45C1 /* Debug */,
+				49CCCC9A1E0A0337004B45C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49CCCC791E0A0337004B45C1 /* Project object */;
+}
